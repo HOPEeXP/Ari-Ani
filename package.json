@@ -67,7 +67,7 @@
     "qrcode-terminal": "^0.12.0"
   },
   "scripts": {
-    "start": "nodemon heart.js",
+    "start": "node heart.js",
     "heroku-prebuild": "yarn install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
